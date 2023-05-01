@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formularios</title>
+</head>
+<body bgcolor="lightgray">
+    <center> <font face="verdana"><h1>Formularios</h1></font></center>
+    <font face="verdana">
+        <nav align="center">
+            <a href="form1.html">Exercicio 1</a>
+            <a href="form2.html">Exercicio 2</a>
+            <a href="form3.html">Exercicio 3</a>
+            <a>Exercicio 4</a>
+            <a href="form5.html">Exercicio 5</a>
+        </nav>
+    </font>
+      
+    <br><br>
+    <form action="#" method="GET">
+        Please fill out the form bellow. <font color="red">*= Required fields.</font> <br><br><br>
+        <font color="red">
+            <label for="first-name">* First name:</label>
+        </font>
+        <input type="text" id="first-name"><br><br>
+        <font color="red">
+            <label for="last-name">* Last name:</label>
+        </font>
+        <input type="text" id="last-name"> <br><br>
+        <label for="year">Year of graduation: </label>
+        <input type="text" id="year"><br><br>
+
+        <fieldset>
+            <legend><font color="red">* Gender</font></legend>
+            <input type="radio" name="gender" id="male">
+            <label for="male">Male</label> <br><br>
+            <input type="radio" name="gender" id="female">
+            <label for="female">Female</label>
+        </fieldset>
+
+        <br>
+
+        <fieldset>
+            <legend>Telecomutter</legend>
+
+            <input type="radio" name="telecomutter" id="yes">
+            <label for="yes">Yes</label><br><br>
+            <input type="radio" name="telecomutter" id="no">
+            <label for="no">No</label>
+        </fieldset> <br>
+
+        <input type="submit" value="Next">
+</body>
+</html>
